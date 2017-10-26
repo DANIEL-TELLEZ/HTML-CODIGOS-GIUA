@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>otrs etiquetas de svg</title>
+</head>
+<body>
+	<ol>
+		<li>Etiqueta g</li>
+		<svg width="100%" height="100%" viewBox="0 0 95 50"
+     xmlns="http://www.w3.org/2000/svg">
+  <g stroke="green" fill="white" stroke-width="5">
+    <circle cx="25" cy="25" r="15" />
+    <circle cx="40" cy="25" r="15" />
+    <circle cx="55" cy="25" r="15" />
+    <circle cx="70" cy="25" r="15" />
+  </g>
+</svg>
+
+<li>Etiqueta defs</li>
+<svg width="80px" height="30px" viewBox="0 0 80 30"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="Gradient01">
+      <stop offset="20%" stop-color="#39F" />
+      <stop offset="90%" stop-color="#F3F" />
+    </linearGradient>
+  </defs>
+
+  <rect x="10" y="10" width="60" height="10" 
+        fill="url(#Gradient01)" />
+</svg>
+<li>Path</li>
+<svg width="100%" height="100%" viewBox="0 0 400 400"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <path d="M 100 100 L 300 100 L 200 300 z"
+        fill="orange" stroke="black" stroke-width="3" />
+</svg>
+
+<li>desc</li>
+<p>Para agregar una descripcion </p>
+<li>title</li>
+<p>Para agregar un titulo</p>
+	</ol>
+
+</body>
+</html>

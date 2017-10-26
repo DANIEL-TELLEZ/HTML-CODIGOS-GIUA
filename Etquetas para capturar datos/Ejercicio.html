@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ejercicio imput</title>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Registro de nuestra tienda</legend>
+			<p>Nombre de usuario<br/>
+			<input type="tex" placeholder="Ej:luis ">
+		</p>
+		<p>Email<br/>
+			<input type="email" id="email-usuario" placeholder="Ej:luis@">
+
+		</p>
+
+		<p> Edad <br/>
+			<input type="number" min="10" placeholder="Ej: 21"> 
+
+		</p>
+        <p>Genero <br/>
+		   <input type="radio" name="sexo" /> Mujer<br />
+           <input type="radio" name="sexo" /> Hombre 
+        <p/>
+
+        <p> Recomendado por</br>
+            <select>
+				<option>Google</option>
+				<option>Fire fox</option>
+				<option>Moxilla</option>
+			</select>
+		</p>
+
+		<p> Comentarios <br/>
+			<textarea name="area-texto" rows="8" cols="20"> </textarea>
+		</p>
+		<p>
+			<label for="accept">Acepto terminos y condiciones: </label>
+			<br>
+			<input type="checkbox" name="accept">
+		</p>
+
+
+				<input type="submit" value="Registrarce">				
+			
+
+		</fieldset>
+	</form>
+
+</body>
+</html>
